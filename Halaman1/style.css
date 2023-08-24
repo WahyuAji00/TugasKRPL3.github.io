@@ -1,0 +1,32 @@
+body {
+    min-height: 100vh;
+    background: url('BackgroundHalaman1.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.text-container {
+    color: white;
+    font-size: larger;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.5);
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+.img-fluid {
+    transition: transform 0.3s;
+    border: 3px solid black;
+}
+
+.img-fluid:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
